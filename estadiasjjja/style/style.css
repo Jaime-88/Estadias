@@ -1,0 +1,79 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {font-size: 66px; font-weight: 600; line-height: 80px;}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+.bg-light-grey{ background-color: #ffffff;}
+
+
+
+.topmargin-xs {margin-top: 15px;}
+.topmargin-sm {margin-top: 30px;}
+.topmargin-lg {margin-top: 60px;}
+
+
+.navbar {
+	background-color: #000000 ;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, .05);
+	min-height: 100px;
+}
+
+.nav-link { color: #ffffff ; }
+.nav-link:hover { color: #ffffff; }
+
+.logo-brand {
+	min-width: 160px;
+	max-width: 180px;
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus {outline: none; }
+
+
+.big-banner{
+	background-image: url('../img/pm7.jpg');
+	background-size: cover;
+}
+
+.content-center{
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+.portfolio-container{
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0;
+	border-radius: 2px;
+}
+
+.portfolio-container img{
+	-moz-transition: all 0.8s;
+	-webkit-transition:all 0.8s;
+	transition: all 0.8s;
+}
+
+.portfolio-container:hover img{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details{
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 9000;
+}
+
+.portfolio-details a h2{
+	color: #ffffff;
+}
+
